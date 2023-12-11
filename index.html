@@ -1,165 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-    }
-
-    .logo-container img {
-      margin-right: 10px;
-    }
-
-    h1 {
-      font-size: 24px;
-    }
-
-    .nav-tabs {
-      background-color: #007BFF;
-      color: #fff;
-    }
-
-    .nav-tabs .nav-item {
-      margin-right: 10px;
-    }
-
-    .tab-content {
-      padding: 20px;
-    }
-
-    .room-features {
-      margin-bottom: 20px;
-    }
-  </style>
-  <title>Sogo Hotel - Hotel Management System</title>
+  <title>Hotel Management System</title>
 </head>
-
 <body>
 
   <div class="container mt-5">
-    <!-- Header Section with Logo and Title -->
-    <header>
-      <div class="logo-container">
-        <img src="path/to/your/logo.png" alt="Sogo Hotel Logo" height="50">
-      </div>
-      <h1>Sogo Hotel - Hotel Management System</h1>
-    </header>
-
-    <!-- Navigation Tabs -->
+    <h1>
+      <img src="https://media.discordapp.net/attachments/867661379174268938/1183755907671265340/Z.png?ex=65897d99&is=65770899&hm=657c95d2b85279e8324475984ec57e98fd7b15423a8b57bbbceba9b56f8b9e74&=&format=webp&quality=lossless" alt="Logo" height="50">
+      Sogo Hotel
+    </h1>
     <ul class="nav nav-tabs mt-4">
-      <li class="nav-item">
-        <a class="nav-link active" id="customer-tab" data-toggle="tab" href="#customer">Customers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="reservation-tab" data-toggle="tab" href="#reservation">Reservations</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="employee-tab" data-toggle="tab" href="#employee">Employees</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="department-tab" data-toggle="tab" href="#department">Departments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="room-tab" data-toggle="tab" href="#room">Rooms</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="job-tab" data-toggle="tab" href="#job">Jobs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment">Payments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="feedback-tab" data-toggle="tab" href="#feedback">Feedback</a>
-      </li>
+        <li class="nav-item">
+            <a class="nav-link active" id="customer-tab" data-toggle="tab" href="#customer">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="reservation-tab" data-toggle="tab" href="#reservation">Reservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="employee-tab" data-toggle="tab" href="#employee">Employees</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="department-tab" data-toggle="tab" href="#department">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="room-tab" data-toggle="tab" href="#room">Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="job-tab" data-toggle="tab" href="#job">Jobs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment">Payments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="feedback-tab" data-toggle="tab" href="#feedback">Feedback</a>
+          </li>
     </ul>
 
-    <!-- Content Section -->
     <div class="tab-content mt-3">
-        <div class="tab-pane fade show active" id="customer">
-            <!-- Add your customer table management UI here -->
-          </div>
-    
-          <!-- Reservation Tab -->
-          <div class="tab-pane fade" id="reservation">
-            <!-- Add your reservation table management UI here -->
-          </div>
-    
-          <!-- Employee Tab -->
-          <div class="tab-pane fade" id="employee">
-            <!-- Add your employee table management UI here -->
-          </div>
-    
-          <!-- Department Tab -->
-          <div class="tab-pane fade" id="department">
-            <!-- Add your department table management UI here -->
-          </div>
-    
-          <!-- Room Tab -->
-          <div class="tab-pane fade" id="room">
-            <!-- Add your room table management UI here -->
-          </div>
-    
-          <!-- Job Tab -->
-          <div class="tab-pane fade" id="job">
-            <!-- Add your job table management UI here -->
-          </div>
-    
-          <!-- Payment Tab -->
-          <div class="tab-pane fade" id="payment">
-            <!-- Add your payment table management UI here -->
-          </div>
-    
-          <!-- Feedback Tab -->
-          <div class="tab-pane fade" id="feedback">
-            <!-- Add your feedback table management UI here -->
-          </div>
-
-      <!-- Room Features Section -->
-      <div class="tab-pane fade" id="room-features">
-        <h2>Room Features</h2>
-
-        <!-- Regency Room Features -->
-        <div class="room-features">
-            <h3>Regency</h3>
-            <p>Features 1 Queen Size Bed, LED TV with cable/in-house movies, air conditioning, dining table, hot and cold bath, and bathtub.</p>
-          </div>
-
-        <!-- Regency II Room Features -->
-        <div class="room-features">
-            <h3>Regency II</h3>
-            <p>Bigger groups like families and barkadas will love the Regency Room II. It features 1 queen size bed, 1 single bed, LED TV with cable/in-house movies, air-conditioning, dining table, hot and cold bath, and bathtub.</p>
-          </div>
-
-        <!-- Premium Room Features -->
-        <div class="room-features">
-            <h3>Premium Room</h3>
-            <p>The Premium Room is perfect for solo travelers and couples. Snug, cozy, with a twin size bed, air-conditioning, LED TV with cable channels and in-house movies, plus a hot and cold shower.</p>
-          </div>
-
-        <!-- ... (repeat the structure for room features) ... -->
-
+      <!-- Customer Tab -->
+      <div class="tab-pane fade show active" id="customer">
+        <!-- Add your customer table management UI here -->
       </div>
 
-      <!-- Employee Information Section -->
-      <div class="tab-pane fade" id="employee-info">
-        <h2>Employee Information</h2>
-        <p>Sogo Hotel has 154 employees that include the Hotel Supervisor, Hotel Assistant Supervisor, Receptionist, Hotel Manager, Room Attendant, Room Service Attendant, Team Leader, Accountant, Chef, and the Room Service Waiter.</p>
+      <!-- Reservation Tab -->
+      <div class="tab-pane fade" id="reservation">
+        <!-- Add your reservation table management UI here -->
       </div>
 
-      <!-- User Information Section -->
-      <div class="tab-pane fade" id="user-info">
-        <h2>User Information</h2>
-        <p>The number of guests in Sogo Hotel may vary depending on the room that is chosen. An estimated number of 200 guests can be accommodated with the different kinds of rooms that they offer.</p>
+      <!-- Employee Tab -->
+      <div class="tab-pane fade" id="employee">
+        <!-- Add your employee table management UI here -->
       </div>
+
+      <!-- Department Tab -->
+      <div class="tab-pane fade" id="department">
+        <!-- Add your department table management UI here -->
+      </div>
+
+      <!-- Room Tab -->
+      <div class="tab-pane fade" id="room">
+        <!-- Add your room table management UI here -->
+      </div>
+
+      <!-- Job Tab -->
+      <div class="tab-pane fade" id="job">
+        <!-- Add your job table management UI here -->
+      </div>
+
+      <!-- Payment Tab -->
+      <div class="tab-pane fade" id="payment">
+        <!-- Add your payment table management UI here -->
+      </div>
+
+      <!-- Feedback Tab -->
+      <div class="tab-pane fade" id="feedback">
+        <!-- Add your feedback table management UI here -->
+      </div>
+
     </div>
   </div>
 
@@ -167,5 +88,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-
 </html>
